@@ -1,0 +1,218 @@
+header img {
+    width: 410px;
+    height: 220px;
+}
+
+#classroom{
+    width: 400px;
+    height:400px;
+    margin-top:-70px;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    gap: 340px;
+    /* padding: 30px; */
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.submit{
+    margin-top: -20px;
+}
+
+.description {
+    text-align: center;
+}
+
+h3{
+    padding: 10px;
+    /* font-size: 30px; */
+}
+
+
+input{
+    width: 360px;
+    height: 56px;
+    border-radius: 8px;
+    margin: 10px 0px;
+    border: solid 1px #22424D;
+}
+
+a {
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: 500;
+    color: #999797;
+    text-align: right;
+}
+
+#password{
+    text-align: right;
+}
+
+form a p{
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #22424D;
+}
+
+.retour{
+    display: flex;
+}
+
+button{
+    width: 360px;
+    height: 60px;
+    border-radius: 8px;
+    border: solid 1px #D9D9D9;
+}
+
+.btn-primary{
+    background-color: #22424D;
+    color: white;
+    font-weight: 600;
+}
+
+footer p{
+    color: #333333;
+    font-size: 8px;
+    text-align: center;
+}
+
+@media  screen and (max-width : 600px)  {
+    
+    body{
+        padding: 0px 50px;
+    }
+
+    header img {
+        width: 280px;
+        height: 180px;
+    }
+    
+    #classroom{
+        order: -1;
+        width: 250px;
+        height:300px;
+        margin: 0px;
+    }
+    
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 50px 100px 60px 100px;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 28px;
+    }
+
+    h3{
+        padding: 0px 0px 20px 0px;
+    }
+
+    input , .form-control{
+        width: 330px;
+        height: 50px;
+        margin: 0px 0px 10px 0px;
+    }
+
+    button{
+        width: 330px;
+        height: 50px;
+        border-radius: 8px;
+        border: solid 1px #D9D9D9;
+    }
+
+    input{
+        width: 14px;
+        height: 8px;
+        border-radius: 8px;
+        margin: 10px 0px;
+        border: solid 1px #22424D;
+    }
+
+
+}
+
+/* @media  screen and (max-width : 979px) {
+
+    header img {
+        width: 380px;
+        height: 240px;
+    }
+    
+    body{
+        padding: 0px 50px;
+    }
+    
+    #classroom{
+        order: -1;
+        width: 350px;
+        height:400px;
+        margin: 0px;
+    }
+    
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 50px 100px 20px 100px;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 28px;
+        margin-top: -40px;
+    }
+
+    h3{
+        font-size: 40px;
+        padding: 0px 0px 20px 0px;
+    }
+
+    input , .form-control{
+        width: 430px;
+        height: 60px;
+        margin: 10px 0px 10px 0px;
+        font-size: 20px;
+    }
+
+    button{
+        width: 430px;
+        height: 60px;
+        border-radius: 8px;
+        border: solid 1px #D9D9D9;
+        font-size: 20px;
+        margin: 12px 0px;
+    }
+
+    input{
+        width: 14px;
+        height: 8px;
+        border-radius: 8px;
+        margin: 10px 0px;
+        border: solid 1px #22424D;
+    }
+
+  
+
+} */

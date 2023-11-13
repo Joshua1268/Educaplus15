@@ -1,0 +1,9 @@
+{
+  "hosting": [
+    {
+      "target": "educaplus2",
+      "source": ".",
+      "frameworksBackend": {}
+    }
+  ]
+}

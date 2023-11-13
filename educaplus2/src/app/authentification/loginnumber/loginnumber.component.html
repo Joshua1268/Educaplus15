@@ -1,0 +1,42 @@
+<div>
+    <header>
+        <img src="/assets/Group 55.png" alt="">
+    </header>
+    <main>
+       <div class="container">
+    
+        <!--container form-->
+
+        <div class="submit">
+            <div class="description">
+                <h3>Entrez votre numéro de téléphone !</h3>
+            </div>
+            <div id="recaptcha-container"></div>
+            <form (submit)="sendVerificationCode(phoneNumber.value)">
+               <div >
+                <!-- <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="  Email" required autofocus [(ngModel)]="email"  name="email" > -->
+                 <input #phoneNumber type="tel" class="form-control" aria-describedby="emailHelp" placeholder="Numéro de téléphone" required autofocus [(ngModel)]="email" name="number" >
+               </div>
+               <button type="submit" class="btn btn-primary" (click)="login()" >Envoyez</button>
+             </form>
+
+            
+           
+             <a [routerLink]="['/login']">
+               <div class="retour">
+                 <p>
+                   <i class="fa-solid fa-arrow-left" style="color: #22424d;"></i>  Retour
+                 </p>
+               </div>
+             </a>
+       </div>
+
+   
+            <img src="/assets/Mobile login-cuate.png" alt="" id="classroom">
+     
+ </div>
+</main>
+<footer>
+   <p>Copyright © 2023 - Tous Droits Reservés</p>
+</footer>
+</div>

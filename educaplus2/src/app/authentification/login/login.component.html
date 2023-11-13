@@ -1,0 +1,53 @@
+<div>
+    <header>
+        <img src="/assets/Group 55.png" alt="">
+    </header>
+    <main>
+       <div class="container">
+    
+        <!--container form-->
+
+           <div class="submit">
+                 <div class="description">
+                     <h3>Se connectez!</h3>
+                 </div>
+        
+                 <form>
+                    <div >
+                      <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="  Email" required autofocus [(ngModel)]="email"  name="email" >
+                    </div>
+                    <div >
+  <!-- <button (click)="hide = !hide">{{hide ? 'Afficher' : 'Masquer'}} le mot de passe</button>                    </div> -->
+                        <input type="password" class="form-control"  placeholder="  Mot de passe " required autofocus [(ngModel)]="password" name="password" >
+                    </div>
+                    <div id="password">
+                      <a href="">Mot de passe oublié ?</a>
+                    </div>
+                    <button type="submit" class="btn btn-primary" (click)="login()" >Submit</button><br>
+                    <a [routerLink]="['/page-acceuil']">
+                        <div class="retour">
+                            <p>
+                                <i class="fa-solid fa-arrow-left" style="color: #22424d;"></i>  Retour
+                            </p>
+                        </div>
+                    </a>
+                  </form>
+                  <a [routerLink]="['/']">
+                    <div class="login-number">
+                        <h4 class="number">
+                             Se connectez avec <span>Numéro de téléphone ?</span>
+                             <!-- <i class="fa-solid fa-arrow-left" style="color: #22424d;"></i> -->
+                        </h4>
+                    </div>
+                </a>
+            </div>
+
+         <!--container img classroom-->
+                 <img src="/assets/Mobile login-cuate.png" alt="" id="classroom">
+          
+      </div>
+    </main>
+    <footer>
+        <p>Copyright © 2023 - Tous Droits Reservés</p>
+    </footer>
+</div>

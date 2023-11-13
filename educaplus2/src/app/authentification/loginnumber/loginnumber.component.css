@@ -1,0 +1,184 @@
+header img {
+    width: 410px;
+    height: 220px;
+    
+}
+
+#classroom{
+    width: 400px;
+    height:400px;
+    margin-top: -70px;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    gap: 340px;
+    /* padding: 30px; */
+    align-items: center;
+    /* margin-bottom: 10px; */
+}
+
+.description {
+    text-align: center;
+}
+
+h3{
+    padding: 10px;
+    /* font-size: 30px; */
+}
+
+
+input{
+    width: 360px;
+    height: 56px;
+    border-radius: 8px;
+    margin: 10px 0px;
+    border: solid 1px #22424D;
+}
+
+a {
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: 500;
+    color: #999797;
+    text-align: right;
+}
+
+#password{
+    text-align: right;
+}
+
+form a p{
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #22424D;
+}
+
+.retour{
+    padding: 10px 0px;
+    display: flex;
+}
+
+.login-number, .number{
+    align-items: center;
+    text-align: center;
+    padding: 10px 0px;
+    color: black;
+    font-weight: 500;
+}
+
+/* .number{
+    font-size: 12px;
+    padding: 34px 0px;
+    color: black;
+} */
+
+.number span{
+    font-size: 14px;
+    color: #22424D;
+    font-weight: 600;
+}
+
+button{
+    width: 360px;
+    /* margin: 13px; */
+    height: 60px;
+    border-radius: 8px;
+    border: solid 1px #D9D9D9;
+}
+
+.btn-primary{
+    background-color: #22424D;
+    color: white;
+    font-weight: 600;
+}
+
+footer p{
+    color: #333333;
+    font-size: 8px;
+    text-align: center;
+}
+
+@media  screen and (max-width : 600px)  {
+    
+    body{
+        padding: 0px 50px;
+    }
+
+    header img {
+        width: 280px;
+        height: 180px;
+    }
+    
+    #classroom{
+        order: -1;
+        width: 220px;
+        height:320px;
+        margin: 0px;
+    }
+    
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 50px 100px 30px 100px;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0px;
+        /* margin-bottom: 18px; */
+    }
+
+    h3{
+        padding: 0px 0px 40px 0px;
+    }
+
+    .submit{
+        margin: 30px 0px 30px 0px;
+    }
+
+    input , .form-control{
+        width: 330px;
+        height: 50px;
+        margin: 0px 0px 40px 0px;
+    }
+
+    button{
+        width: 330px;
+        height: 50px;
+        border-radius: 8px;
+        border: solid 1px #D9D9D9;
+    }
+
+    input{
+        width: 14px;
+        height: 8px;
+        border-radius: 8px;
+        margin: 10px 0px;
+        border: solid 1px #22424D;
+    }
+
+    .number{
+        font-size: 12px;
+        padding: 10px 0px 25px 0px;
+        color: black;
+    }
+
+    .number span{
+        font-size: 18px;
+        color: #22424D;
+    }
+   
+}

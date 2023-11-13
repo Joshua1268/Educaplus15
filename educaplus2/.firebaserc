@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "educaplus2-e2fe9": {
+      "hosting": {
+        "educaplus2": [
+          "educaplus2-e2fe9"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "educaplus2-e2fe9"
+  }
+}
